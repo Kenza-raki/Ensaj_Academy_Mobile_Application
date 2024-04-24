@@ -59,13 +59,14 @@ Ensaj Academy leverages modern technologies to deliver a robust and scalable mob
 
 <p float="left">
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/d886916b-e1a6-4083-ac5b-2434bfd0d3d9" width="200" />
-  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/9cebf7bc-2d96-414a-bfa6-6c67dee0e102" width="200" />
+  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/692c139a-f2b8-481c-ab16-1916048192e2" width="200" />
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/6e5e08f0-a713-4441-8e5e-479782c591e0" width="200" />
    <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/0f38b118-1f9a-439c-b5ac-09f3df5f4ead" width="200" />
 </p>
 
 
 #### Room Reservation
+
 <p float="left">
   <img src="image](https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/747d09d0-e047-44bb-a6fe-49f782339b5f" width="200" />
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/b01f5eb2-1b3c-429b-b05e-0b46bb80c4bb" width="200" />
@@ -86,9 +87,10 @@ Ensaj Academy leverages modern technologies to deliver a robust and scalable mob
 
 <p float="left">
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/6237388b-0a27-4f91-9ea2-9c2b7b126512" width="200" />
-  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/fdd6dd77-13e1-4af5-8762-654af6463ac4" width="200" />
+  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/68e288e3-28f7-490a-9878-42e6ccdf2f0b" width="200" />
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/e262ff44-9649-4888-8b31-b9f2e85e6e99" width="200" />
 </p>
+
 
 
 ### Student Interfaces
@@ -96,9 +98,10 @@ Ensaj Academy leverages modern technologies to deliver a robust and scalable mob
 <p float="left">
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/03769814-3086-4c6d-b787-f40ba3174294" width="200" />
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/c66eb25d-0907-4678-9681-958cc9aac9b6" width="200" />
-  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/71b624a6-a356-4617-84a5-f88ad2066c9c" width="200" />
+  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/6451c5f3-b622-428f-ab2a-c2a3972f0d44" width="200" />
    <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/4327569b-241c-4242-b3e5-7a3aa6a272ef"width="200" />
 </p>
+
 
 #### QR Code Scanning
 
@@ -110,12 +113,14 @@ Ensaj Academy leverages modern technologies to deliver a robust and scalable mob
 </p>
 
 #### Courses and Results
+
 <p float="left">
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/abff6aec-003b-4109-92a4-0f2d32f7ead1" width="200" />
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/20ca784e-230e-4d11-bded-6affd4a8c1f2" width="200" />
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/f863871a-1d38-4cff-a57c-97b52bf442b0" width="200" />
-   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/09eb156f-0d63-4337-9b76-73a4a1584adf"width="200" />
+   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/a1c445a0-8951-4717-902b-291fc5be83ce"width="200" />
 </p>
+
 
 
 
