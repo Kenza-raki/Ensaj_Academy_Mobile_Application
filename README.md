@@ -55,17 +55,15 @@ Ensaj Academy leverages modern technologies to deliver a robust and scalable mob
 
 
 
-
-
-
 ### Teacher Interfaces
 
 <p float="left">
-  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/092a457a-612f-4205-8627-705516c9ba49" width="200" />
-  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/59d58995-150b-46e1-a207-e485233d7cb9" width="200" />
+  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/d886916b-e1a6-4083-ac5b-2434bfd0d3d9" width="200" />
+  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/9cebf7bc-2d96-414a-bfa6-6c67dee0e102" width="200" />
   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/6e5e08f0-a713-4441-8e5e-479782c591e0" width="200" />
    <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/0f38b118-1f9a-439c-b5ac-09f3df5f4ead" width="200" />
 </p>
+
 
 #### Room Reservation
 <p float="left">
