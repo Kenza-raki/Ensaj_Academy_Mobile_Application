@@ -47,10 +47,10 @@ Ensaj Academy leverages modern technologies to deliver a robust and scalable mob
 ### Common Interfaces
 
 <p float="left">
-  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/58636053-d447-4e3f-ae74-f7cbe3b8fecb" width="300" />
-  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/2e9f7523-adee-4318-b6c2-a605fddbbdb3" width="300" />
-  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/be62c243-b1c3-40a7-a0c1-f37a82d7e711" width="300" />
-   <img src="[https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/be62c243-b1c3-40a7-a0c1-f37a82d7e711](https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/26815908-f0e7-4091-b19a-3de925e1ccad)" width="300" />
+  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/58636053-d447-4e3f-ae74-f7cbe3b8fecb" width="200" />
+  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/2e9f7523-adee-4318-b6c2-a605fddbbdb3" width="200" />
+  <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/be62c243-b1c3-40a7-a0c1-f37a82d7e711" width="200" />
+   <img src="https://github.com/Kenza-raki/Ensaj_Universe_Mobile_Application/assets/116951093/26815908-f0e7-4091-b19a-3de925e1ccad" width="200" />
 </p>
 
 ### Teacher Interfaces
