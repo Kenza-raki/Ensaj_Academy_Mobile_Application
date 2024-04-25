@@ -75,7 +75,7 @@ Widget textFieldPassword() {
 InputDecoration textFieldDecoration(String label) {
   return InputDecoration(
       labelText: label,
-      labelStyle: const TextStyle(color: Colors.white),
+      labelStyle: const TextStyle(color: Colors.black),
       errorBorder: textFieldBorder(),
       focusedErrorBorder: textFieldBorder(),
       errorStyle: TextStyle(fontSize: 14),
@@ -86,7 +86,8 @@ InputDecoration textFieldDecoration(String label) {
 
 OutlineInputBorder textFieldBorder() {
   return OutlineInputBorder(
+      borderSide: const BorderSide( color: Color.fromARGB(255, 8, 92, 160)),
       borderRadius: BorderRadius.circular(20),
-      borderSide: const BorderSide(
-          color: Colors.white, style: BorderStyle.solid, width: 2));
+      gapPadding: 5);
 }
+

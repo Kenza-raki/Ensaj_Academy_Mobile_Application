@@ -73,12 +73,12 @@ InputDecoration inputTextDecoration(String value) {
 // Border for above TextFormFields...............................
 OutlineInputBorder textFieldBorder() {
   return OutlineInputBorder(
-      borderSide: const BorderSide(color: Colors.white),
+      borderSide: const BorderSide( color: Color.fromARGB(255, 8, 92, 160)),
       borderRadius: BorderRadius.circular(20),
       gapPadding: 5);
 }
 
 // Text Styling for above TextFormFields.........................
 TextStyle textStyleLabel() {
-  return const TextStyle(color: Colors.white);
+  return const TextStyle(color: Colors.black);
 }

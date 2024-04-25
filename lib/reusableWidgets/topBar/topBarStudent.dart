@@ -16,7 +16,7 @@ class TopBarStudent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blueGrey,
+      color: Color.fromARGB(255, 8, 92, 160),
       alignment: Alignment.center,
       width: screenWidth(context),
       height: 100,
@@ -25,7 +25,7 @@ class TopBarStudent extends StatelessWidget {
         children: [
           Container(
               margin: const EdgeInsets.only(left: 50),
-              child: const Text("Champ Quizz",
+              child: const Text("Ensaj UniVerse",
                   style: TextStyle(color: Colors.white, fontSize: 25))),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,

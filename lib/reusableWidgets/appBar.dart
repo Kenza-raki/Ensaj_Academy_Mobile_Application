@@ -9,46 +9,67 @@ import 'alertDialogs/alertDialogLogout.dart';
 
 AppBar appBarSimple(context, title) {
   return AppBar(
-    title: Text(title),
+    title: Text(
+      title,
+      style: TextStyle(
+        color: Colors.white, // Change the color of the title text
+      ),
+    ),
     centerTitle: true,
     elevation: 10,
-    backgroundColor: Colors.blueGrey,
+    backgroundColor: Color.fromARGB(255, 8, 92, 160),
   );
 }
 
 AppBar appBarSimpleWithoutBack(context, title) {
   return AppBar(
-    title: Text(title),
+    title: Text(
+      title,
+      style: TextStyle(
+        color: Colors.white, // Change the color of the title text
+      ),
+    ),
     centerTitle: true,
     elevation: 10,
     automaticallyImplyLeading: false,
-    backgroundColor: Colors.blueGrey,
+    backgroundColor: Color.fromARGB(255, 8, 92, 160),
   );
 }
 
 AppBar appBarCreate(context, title) {
   return AppBar(
-    title: Text(title),
+    title: Text(
+      title,
+      style: TextStyle(
+        color: Colors.white, // Change the color of the title text
+      ),
+    ),
     centerTitle: true,
     elevation: 10,
-    backgroundColor: Colors.blueGrey,
+    backgroundColor: Color.fromARGB(255, 8, 92, 160),
     actions: [
       addQuestionsButton(context),
     ],
   );
 }
 
-AppBar appBarWithLogout(context, title) {
+AppBar appBarWithLogout(BuildContext context, String title) {
   return AppBar(
-    title: Text(title),
+    title: Text(
+      title,
+      style: TextStyle(
+        color: Colors.white, // Change the color of the title text
+      ),
+    ),
     centerTitle: true,
     elevation: 10,
     actions: [
       containerLogout(context),
     ],
-    backgroundColor: Colors.blueGrey,
+    backgroundColor: Color.fromARGB(255, 8, 92, 160),
   );
 }
+
 
 Container containerLogout(context) {
   return Container(
@@ -68,7 +89,7 @@ Container containerLogout(context) {
 AppBar appBarAbout(context) {
   return AppBar(
     elevation: 20,
-    backgroundColor: Colors.blueGrey,
+    backgroundColor: Color.fromARGB(255, 8, 92, 160),
     flexibleSpace: Container(
         decoration: const BoxDecoration(
             shape: BoxShape.rectangle,

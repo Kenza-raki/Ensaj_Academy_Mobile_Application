@@ -9,11 +9,11 @@ Container userImageContent(context) {
   if (imageUrl == "null") {
     return Container(
       margin: EdgeInsets.only(
-          top: setSize(context, 40), bottom: setSize(context, 7)),
+          top: setSize(context, 40), bottom: setSize(context, 0)),
       child: Image.asset(
         "assets/images/user_img.png",
-        height: 100,
-        width: 100,
+        height: 200,
+        width: 200,
       ),
     );
   } else {

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../constants/constantString.dart';
 import '../reusableWidgets/Responsive.dart';
 import '../reusableWidgets/createColor.dart';
@@ -19,18 +18,18 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-          alignment: Alignment.center,
-          width: screenWidth(context),
-          height: screenHeight(context),
-          decoration: pageDecoration(),
-          //See Below.........
-          child: SingleChildScrollView(
-            child: bodyContainer(), // See below..........
-          )),
+        alignment: Alignment.center,
+        width: screenWidth(context),
+        height: screenHeight(context),
+        decoration: pageDecoration(),
+        child: SingleChildScrollView(
+          child: bodyContainer(),
+        ),
+      ),
     );
   }
 
-  Container bodyContainer() {
+  Widget bodyContainer() {
     return Container(
       alignment: Alignment.center,
       padding: const EdgeInsets.all(20),
@@ -42,65 +41,63 @@ class _LoginPageState extends State<LoginPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           logoApp(),
-          loginText(context), // See below.........
-          textFieldEmail(), // See textFields.dart..................
-          textFieldPassword(), // See textFields.dart..................
-          submitButton(), // See submitButton.dart..................
-          notUserSignup(context), //See notUserSignup.dart..............
+          const SizedBox(height: 0),
+          Row(
+  mainAxisAlignment: MainAxisAlignment.center,
+  children: const [
+    Text(
+      'Ensaj ',
+      style: TextStyle(
+        fontSize: 24,
+        fontWeight: FontWeight.bold,
+        color: Color.fromARGB(255, 8, 92, 160), // Blue color for Ensaj
+      ),
+    ),
+    Text(
+      'Universe',
+      style: TextStyle(
+        fontSize: 24,
+        fontWeight: FontWeight.bold,
+        color: Colors.black, // Black color for Universe
+      ),
+    ),
+  ],
+),
+
+
+          const SizedBox(height: 20),
+          textFieldEmail(),
+          const SizedBox(height: 20),
+          textFieldPassword(),
+          const SizedBox(height: 20),
+          submitButton(),
+          const SizedBox(height: 20),
+          notUserSignup(context),
         ],
       ),
     );
   }
 
-  logoApp() {
+  Widget logoApp() {
     return Container(
-      decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          color: Colors.white,
-          border: Border.all(color: Colors.black, width: 1.7)),
-      margin: const EdgeInsets.only(bottom: 50),
-      width: 150,
+      margin: const EdgeInsets.only(bottom: 0),
+      width: 300,
       child: Image.asset(
         appLogo,
-        height: 130,
-        width: 150,
+        height: 200,
+        width: 100,
       ),
     );
   }
-}
 
-Widget loginText(context) {
-  return Container(
-    decoration: BoxDecoration(
-        color: hexToColor("#079375"),
-        shape: BoxShape.rectangle,
-        borderRadius: BorderRadius.circular(20)),
-    padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 7),
-    margin: const EdgeInsets.symmetric(vertical: 20),
-    child: Text("Login",
-        style: TextStyle(
-            fontSize: setSize(context, 30),
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
-            fontStyle: FontStyle.normal)),
-  );
-}
-
-BoxDecoration pageDecoration() {
-  return const BoxDecoration(
-      gradient: LinearGradient(colors: [
-    Colors.redAccent,
-    Colors.orange,
-    Colors.grey,
-    Colors.brown,
-    Colors.blueAccent,
-    Colors.blue,
-  ], stops: [
-    0.1,
-    0.2,
-    0.3,
-    0.5,
-    0.9,
-    1
-  ], begin: Alignment.bottomLeft, end: Alignment.topRight));
+  BoxDecoration pageDecoration() {
+    return const BoxDecoration(
+      gradient: LinearGradient(
+        colors: [Colors.white],
+        stops: [1],
+        begin: Alignment.bottomLeft,
+        end: Alignment.topRight,
+      ),
+    );
+  }
 }

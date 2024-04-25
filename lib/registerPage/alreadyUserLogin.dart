@@ -13,7 +13,7 @@ Widget alreadyUserLogin(context) {
       },
       child: Text("Already a User? Click here Login.",
           style: TextStyle(
-              color: Colors.white,
+              color: Color.fromARGB(255, 8, 92, 160),
               fontWeight: FontWeight.w600,
               fontSize: setSize(context, 20))),
     ),

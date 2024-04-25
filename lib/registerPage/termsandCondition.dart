@@ -11,7 +11,7 @@ Widget termsConditions() {
           textAlign: TextAlign.center,
           TextSpan(
               text: 'By continuing, you agree to our ',
-              style: const TextStyle(fontSize: 16, color: Colors.black),
+              style: const TextStyle(fontSize: 16, color: Color.fromARGB(255, 8, 92, 160),),
               children: <TextSpan>[
                 TextSpan(
                     recognizer: TapGestureRecognizer()

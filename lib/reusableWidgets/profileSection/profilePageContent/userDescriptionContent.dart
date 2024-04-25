@@ -40,6 +40,6 @@ Container headingDescription(context, value) {
       child: Text(value,
           style: TextStyle(
               fontSize: setSize(context, 20),
-              color: Colors.black,
+              color: Color.fromARGB(255, 8, 92, 160),
               fontWeight: FontWeight.w500)));
 }

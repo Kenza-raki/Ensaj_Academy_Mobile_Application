@@ -14,18 +14,19 @@ Widget toggleForStudentFaculty() {
         child: ToggleSwitch(
           cornerRadius: 15,
           fontSize: setSize(context, 18),
-          activeBgColor: const [Colors.green],
+          activeBgColor: const [ Color.fromARGB(255, 8, 92, 160),],
           borderWidth: setSize(context, 5),
           animate: true,
           minWidth: setSize(context, 130),
           animationDuration: 400,
           initialLabelIndex: providerValue.radioForStudentFaculty,
           totalSwitches: 2,
-          labels: const ['Student', "Faculty"],
+          labels: const ['Student', "Teacher"],
           onToggle: (index) {
             providerValue.changeStudentFacultyValue(index);
           },
-        ),
+        )
+,
       );
     },
   );

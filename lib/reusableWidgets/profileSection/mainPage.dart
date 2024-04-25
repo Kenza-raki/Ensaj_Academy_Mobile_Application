@@ -65,5 +65,5 @@ class _ProfilePageState extends State<ProfilePage> {
 
 containerSeperator(context) {
   return Container(
-      width: screenWidth(context), height: 1, color: Colors.black54);
+      width: screenWidth(context), height: 1, color: Color.fromARGB(255, 8, 92, 160));
 }

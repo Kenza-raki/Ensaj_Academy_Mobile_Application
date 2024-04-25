@@ -35,11 +35,15 @@ Widget buttonContent(providerValue, context) {
           long_flutter_toast("Please fill out all fields to Continue");
         }
       },
-      child: Text(
-        "Submit",
-        style: TextStyle(
-            fontWeight: FontWeight.bold, fontSize: setSize(context, 22)),
-      ));
+    child: Text(
+  "Submit",
+  style: TextStyle(
+    fontWeight: FontWeight.bold,
+    fontSize: setSize(context, 22),
+    color: Color.fromARGB(255, 8, 92, 160) // Change the color to your preferred color
+  ),
+)
+);
 }
 
 // Set data to Firebase.......................................

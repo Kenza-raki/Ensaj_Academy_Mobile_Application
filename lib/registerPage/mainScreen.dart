@@ -60,26 +60,18 @@ class _RegisterState extends State<Register> {
       style: TextStyle(
           fontSize: setSize(context, 35),
           fontWeight: FontWeight.w800,
-          color: Colors.white),
+          color: Color.fromARGB(255, 8, 92, 160),),
     );
   }
 
   BoxDecoration pageDecoration() {
     return const BoxDecoration(
-        gradient: LinearGradient(colors: [
-      Colors.deepOrange,
-      Colors.orangeAccent,
-      Colors.grey,
-      Colors.blueGrey,
-      Colors.blueAccent,
-      Colors.blue,
-    ], stops: [
-      0.1,
-      0.3,
-      0.5,
-      0.6,
-      0.8,
-      1
-    ], begin: Alignment.bottomRight, end: Alignment.topLeft));
+      gradient: LinearGradient(
+          colors: [Colors.white],
+        stops: [1],
+        begin: Alignment.bottomLeft,
+        end: Alignment.topRight,
+      ),
+    );
   }
 }

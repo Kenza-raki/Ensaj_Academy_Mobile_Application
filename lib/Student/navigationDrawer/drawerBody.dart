@@ -1,4 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_project/Student/calendar/calendar.dart';
+import 'package:flutter_project/Faculty/createCourse/addCourse.dart';
+import 'package:flutter_project/Student/courses/courseProvider.dart';
+import 'package:flutter_project/Student/courses/coursesPage.dart';
+import 'package:flutter_project/Student/homePage/homeScreen.dart';
+import 'package:flutter_project/Student/mainScreen.dart';
+import 'package:flutter_project/Faculty/addResults/addNote.dart';
+import 'package:flutter_project/Student/results/viewResults.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher_string.dart';
@@ -11,11 +19,31 @@ import '../../reusableWidgets/profileSection/mainPage.dart';
 import '../../reusableWidgets/profileSection/provider.dart';
 import '../checkScores/checkScores.dart';
 
+ListTile listTileHome(context) {
+  return ListTile(
+    contentPadding: const EdgeInsets.only(left: 20),
+    leading:
+        const Icon(FontAwesomeIcons.home, size: 20, color: Colors.black),
+    title: Text(
+      "Home",
+      style: TextStyle(
+        fontSize: setSize(context, 17),
+        fontWeight: FontWeight.w400,
+      ),
+    ),
+    onTap: () {
+      Navigator.pop(context);
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => const HomeScreen()));
+    },
+  );
+}
+
 ListTile listTileMyQuiz(context) {
   return ListTile(
     contentPadding: const EdgeInsets.only(left: 20),
     leading:
-        const Icon(FontAwesomeIcons.receipt, size: 20, color: Colors.black),
+        const Icon(FontAwesomeIcons.bookOpenReader, size: 20, color: Colors.black),
     title: Text(
       "My Quiz",
       style: TextStyle(
@@ -23,14 +51,18 @@ ListTile listTileMyQuiz(context) {
         fontWeight: FontWeight.w400,
       ),
     ),
-    onTap: () {},
+    onTap: () {
+      Navigator.pop(context);
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => const StudentHome()));
+    },
   );
 }
 
 ListTile listTileCheckScore(context) {
   return ListTile(
     contentPadding: const EdgeInsets.only(top: 15, left: 20),
-    leading: Icon(FontAwesomeIcons.squarePollVertical,
+    leading: Icon(FontAwesomeIcons.checkToSlot,
         size: setSize(context, 17), color: Colors.black),
     title: Text(
       "Check My Score",
@@ -46,7 +78,27 @@ ListTile listTileCheckScore(context) {
     },
   );
 }
-
+ListTile listTileqrcode(context) {
+  return ListTile(
+    style: ListTileStyle.drawer,
+    contentPadding: const EdgeInsets.only(top: 15, left: 20),
+    leading:
+        const Icon(FontAwesomeIcons.qrcode, size: 20, color: Colors.black),
+    title: Text(
+      "QR code ",
+      style: TextStyle(
+          fontSize: setSize(context, 17), fontWeight: FontWeight.w400),
+    ),
+    onTap: () {
+      Navigator.pop(context);
+      Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => TeacherAddGradePage(),
+          ));
+    },
+  );
+}
 Container listTileProfile(context) {
   return Container(
     child: Consumer<ProfilePageProvider>(
@@ -72,80 +124,69 @@ Container listTileProfile(context) {
   );
 }
 
-ListTile listTileAbout(context) {
+
+
+listTileResults(context) {
   return ListTile(
     style: ListTileStyle.drawer,
     contentPadding: const EdgeInsets.only(top: 15, left: 20),
     leading:
-        const Icon(FontAwesomeIcons.circleInfo, size: 20, color: Colors.black),
+        const Icon(FontAwesomeIcons.listNumeric, size: 20, color: Colors.black),
     title: Text(
-      "About Us",
+      "Results",
       style: TextStyle(
           fontSize: setSize(context, 17), fontWeight: FontWeight.w400),
     ),
-    onTap: () {
+    onTap: () async {
       Navigator.pop(context);
       Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => const AboutPage(),
+            builder: (context) => StudentResultsPage(),
           ));
     },
   );
 }
 
-listTilePrivacyPolicy(context) {
+listTileSchedule(context) {
   return ListTile(
     style: ListTileStyle.drawer,
     contentPadding: const EdgeInsets.only(top: 15, left: 20),
-    leading:
-        const Icon(FontAwesomeIcons.userShield, size: 20, color: Colors.black),
-    title: Text(
-      "Privacy Policy",
-      style: TextStyle(
-          fontSize: setSize(context, 17), fontWeight: FontWeight.w400),
-    ),
-    onTap: () async {
-      Navigator.pop(context);
-      await launchUrlString(privacyPolicyURL);
-    },
-  );
-}
-
-listTileTerms(context) {
-  return ListTile(
-    style: ListTileStyle.drawer,
-    contentPadding: const EdgeInsets.only(top: 15, left: 20),
-    leading: const Icon(FontAwesomeIcons.bookOpenReader,
+    leading: const Icon(FontAwesomeIcons.calendar,
         size: 20, color: Colors.black),
     title: Text(
-      "Terms and Conditions",
+      "Schedule",
       style: TextStyle(
           fontSize: setSize(context, 17), fontWeight: FontWeight.w400),
     ),
     onTap: () async {
-      await launchUrlString(termsConditionsURL,
-          webOnlyWindowName: "Terms And Conditions");
-      Navigator.pop(context);
+    Navigator.pop(context);
+      Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const SemesterCalendar(),
+          ));
     },
   );
 }
 
-ListTile listTileShare(context) {
+ListTile listTileCourses(context) {
   return ListTile(
     contentPadding: const EdgeInsets.only(top: 15, left: 20),
     leading:
-        const Icon(FontAwesomeIcons.shareNodes, size: 20, color: Colors.black),
+        const Icon(FontAwesomeIcons.book, size: 20, color: Colors.black),
     title: Text(
-      "Share",
+      "Courses",
       style: TextStyle(
           fontSize: setSize(context, 17), fontWeight: FontWeight.w400),
     ),
     onTap: () async {
-      String mailto =
-          "mailto:sumitsinha401@gmail.com?subject=Query Regarding Quiz Application";
-      await launchUrlString(mailto,
-      mode: LaunchMode.externalApplication);
+      Navigator.pop(context);
+      Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => StudentCoursesPage(),
+          ));
     },
   );
 }

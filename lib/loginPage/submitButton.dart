@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../Faculty/mainScreen.dart';
-import '../Student/mainScreen.dart';
+import '../Student/homePage/homeScreen.dart';
 import '../providers/loginPageProvider.dart';
 import '../reusableWidgets/Responsive.dart';
 import '../reusableWidgets/alertDialogs/alertDialogLoading.dart';
@@ -45,9 +45,12 @@ Widget buttonContent(providerValue, context) {
         },
         style: submitButtonStyle(),
         // Button Styling See below..............................
-        child: Text("Submit",
-            style: TextStyle(
-                fontSize: setSize(context, 22), fontWeight: FontWeight.bold)),
+        child: Text("Log In",
+              style: TextStyle(
+    fontWeight: FontWeight.bold,
+    fontSize: setSize(context, 22),
+    color: Color.fromARGB(255, 8, 92, 160) // Change the color to your preferred color
+  )),
       );
     },
   );
@@ -57,10 +60,10 @@ Widget buttonContent(providerValue, context) {
 ButtonStyle submitButtonStyle() {
   return ButtonStyle(
       alignment: Alignment.center,
-      backgroundColor: const MaterialStatePropertyAll(Colors.blueAccent),
+      backgroundColor: const MaterialStatePropertyAll(Colors.white),
       elevation: const MaterialStatePropertyAll(10),
       padding: const MaterialStatePropertyAll(
-          EdgeInsets.symmetric(horizontal: 15, vertical: 5)),
+          EdgeInsets.symmetric(horizontal: 45, vertical: 5)),
       shape: MaterialStatePropertyAll(
           RoundedRectangleBorder(borderRadius: BorderRadius.circular(10))));
 }
@@ -113,7 +116,7 @@ void checkUserTypeAndNavigate(key, value, context) {
             Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const StudentHome(),
+                  builder: (context) => const HomeScreen(),
                 ))
           }
         : {
