@@ -1,5 +1,5 @@
 
-# Ensaj_Universe_Mobile_Application
+# Ensaj_Academy_Mobile_Application
 
 " Ensaj Academy " is a mobile application dedicated to simplifying academic management while enhancing the student experience. Teachers benefit from features allowing them to publish educational content, organize assessments, and track student progress. On the other hand, students have access to various tools enabling them to easily view their schedules, access course materials, and check their assessment results. With a user-friendly and intuitive interface, " Ensaj Academy " provides an optimal user experience, thereby enhancing student engagement and motivation in their academic journey
 
