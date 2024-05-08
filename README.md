@@ -3,7 +3,6 @@
 
 " Ensaj Academy " is a mobile application dedicated to simplifying academic management while enhancing the student experience. Teachers benefit from features allowing them to publish educational content, organize assessments, and track student progress. On the other hand, students have access to various tools enabling them to easily view their schedules, access course materials, and check their assessment results. With a user-friendly and intuitive interface, " Ensaj Academy " provides an optimal user experience, thereby enhancing student engagement and motivation in their academic journey
 
-
 ### Teacher Features
 - **Meetings Planning**: Schedule meetings and view them in a shared calendar. Receive notifications for upcoming meetings.
 - **Rooms Reservation**: Reserve specific rooms for activities via an integrated calendar, ensuring efficient use of school facilities.
